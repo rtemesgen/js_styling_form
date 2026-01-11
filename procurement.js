@@ -27,3 +27,5 @@ submitProcurementForm("", 10, "ABC Ltd", 100);   // Missing item
 submitProcurementForm("Paper", -5, "ABC Ltd", 100); // Invalid quantity
 submitProcurementForm("Ink", 10, "", 50);        // Missing supplier
 submitProcurementForm("Laptop", 2, "TechWorld", 0); // Invalid price
+// Simulate success
+submitProcurementForm("Monitor", 5, "DisplayCo", 300);
